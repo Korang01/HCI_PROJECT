@@ -1,0 +1,280 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-homescreen1 {
+  width: 100%;
+  height: 844px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.home-i-phone-statusbar {
+  top: 0px;
+  left: 0px;
+  width: 390px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-framebattery {
+  top: 17px;
+  left: 337px;
+  width: 27px;
+  height: 12.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-fill {
+  top: 1.923076868057251px;
+  left: 1.923076868057251px;
+  width: 20px;
+  height: 9px;
+  position: absolute;
+}
+.home-outline {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 12px;
+  opacity: 0.40;
+  position: absolute;
+}
+.home-reception {
+  top: 18px;
+  left: 290px;
+  width: 18px;
+  height: 11px;
+  position: absolute;
+}
+.home-lte {
+  top: 19.1357421875px;
+  left: 313.37091064453125px;
+  width: 19px;
+  height: 10px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.home-text {
+  top: 15px;
+  left: 39px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: 600;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-component1 {
+  gap: 67px;
+  top: 604px;
+  left: 34px;
+  width: 322px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.home-frame1 {
+  gap: 10px;
+  width: 322px;
+  height: 56px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.home-text02 {
+  color: rgba(0, 0, 0, 1);
+  width: 302px;
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-frame2 {
+  cursor: pointer;
+  gap: 10px;
+  width: 147px;
+  height: 46px;
+  display: flex;
+  padding: 34px 8px 18px 10px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: rgba(13, 44, 209, 1);
+}
+.home-text09 {
+  top: 14px;
+  left: 53px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-component-variant2 {
+  top: 689px;
+  left: 174px;
+  width: 42px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-ellipse2 {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 10px;
+  position: absolute;
+}
+.home-ellipse3 {
+  top: 0px;
+  left: 16.085105895996094px;
+  width: 9px;
+  height: 10px;
+  position: absolute;
+}
+.home-ellipse4 {
+  top: 0px;
+  left: 33.0638313293457px;
+  width: 9px;
+  height: 10px;
+  position: absolute;
+}
+.home-i-phone-statusbar1 {
+  top: 0px;
+  left: -19px;
+  width: 414px;
+  height: 44px;
+  display: flex;
+  opacity: 0.90;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-framebattery1 {
+  top: 17px;
+  left: 361px;
+  width: 27px;
+  height: 12.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-fill1 {
+  top: 1.923076868057251px;
+  left: 1.923076868057251px;
+  width: 20px;
+  height: 9px;
+  position: absolute;
+}
+.home-outline1 {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 12px;
+  opacity: 0.40;
+  position: absolute;
+}
+.home-reception1 {
+  top: 18px;
+  left: 314px;
+  width: 18px;
+  height: 11px;
+  position: absolute;
+}
+.home-lte1 {
+  top: 19.1357421875px;
+  left: 337.37091064453125px;
+  width: 19px;
+  height: 10px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.home-text11 {
+  top: 15px;
+  left: 39px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: 600;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-frame3 {
+  gap: 10px;
+  top: 788px;
+  left: 121px;
+  width: 147px;
+  height: 46px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(13, 44, 209, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  justify-content: center;
+}
+.home-text13 {
+  color: rgba(13, 44, 209, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-vizzhighresolutionlogoblackonwhitebackground1 {
+  top: 179px;
+  left: 28px;
+  width: 333px;
+  height: 374px;
+  position: absolute;
+}

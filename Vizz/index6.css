@@ -1,0 +1,438 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-signupscreen {
+  width: 100%;
+  height: 844px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.home-i-phone-statusbar {
+  top: 0px;
+  left: -24px;
+  width: 414px;
+  height: 44px;
+  display: flex;
+  opacity: 0.90;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-framebattery {
+  top: 17px;
+  left: 361px;
+  width: 27px;
+  height: 12.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-fill {
+  top: 1.923076868057251px;
+  left: 1.923076868057251px;
+  width: 20px;
+  height: 9px;
+  position: absolute;
+}
+.home-outline {
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 12px;
+  opacity: 0.40;
+  position: absolute;
+}
+.home-reception {
+  top: 18px;
+  left: 314px;
+  width: 18px;
+  height: 11px;
+  position: absolute;
+}
+.home-lte {
+  top: 19.1357421875px;
+  left: 337.37091064453125px;
+  width: 19px;
+  height: 10px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.home-text {
+  top: 15px;
+  left: 39px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: 600;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-frame13 {
+  gap: 124px;
+  top: 192px;
+  left: 40px;
+  width: 300px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-frame8 {
+  gap: 27px;
+  width: 300px;
+  height: 235px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.home-frame4 {
+  gap: 10px;
+  top: 0px;
+  left: 96.5px;
+  width: 114px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.home-text02 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 600;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-frame15 {
+  gap: 35px;
+  top: 263px;
+  left: 40px;
+  width: 300px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-frame9 {
+  gap: 35px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.home-textinputfield-frame6 {
+  gap: 10px;
+  width: 300px;
+  height: 46px;
+  display: flex;
+  padding: 14px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(196, 196, 196, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+}
+.home-frame6 {
+  gap: 10px;
+  width: 161px;
+  height: 22px;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-text04 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-textinputfield-frame61 {
+  gap: 10px;
+  width: 300px;
+  height: 46px;
+  display: flex;
+  padding: 14px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(196, 196, 196, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+}
+.home-frame61 {
+  gap: 10px;
+  width: 161px;
+  height: 22px;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-text06 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-textinputfield-frame62 {
+  gap: 10px;
+  width: 300px;
+  height: 46px;
+  display: flex;
+  padding: 14px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(196, 196, 196, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+}
+.home-frame62 {
+  gap: 10px;
+  width: 161px;
+  height: 22px;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-text08 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-password-frame8 {
+  gap: 10px;
+  width: 300px;
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(196, 196, 196, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  justify-content: space-between;
+}
+.home-frame7 {
+  gap: 10px;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.home-text10 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-iconoireyealt {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-group {
+  top: 7px;
+  left: 3px;
+  width: 18px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.home-vector {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 6px;
+  position: absolute;
+}
+.home-vector1 {
+  top: 4px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+}
+.home-password-frame81 {
+  gap: 10px;
+  width: 300px;
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(196, 196, 196, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  justify-content: space-between;
+}
+.home-frame71 {
+  gap: 10px;
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.home-text12 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Light;
+  text-align: left;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-iconoireyealt1 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-group1 {
+  top: 7px;
+  left: 3px;
+  width: 18px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.home-vector2 {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 6px;
+  position: absolute;
+}
+.home-vector3 {
+  top: 4px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+}
+.home-frame14 {
+  gap: 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-frame2 {
+  gap: 10px;
+  width: 300px;
+  height: 46px;
+  display: flex;
+  padding: 34px 8px 18px 10px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: rgba(13, 44, 209, 1);
+}
+.home-text14 {
+  top: 14px;
+  left: 108px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 500;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-frame11 {
+  gap: 10px;
+  display: flex;
+  padding: 3px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.home-text16 {
+  top: 6px;
+  left: 6px;
+  color: rgba(0, 0, 0, 1);
+  width: 190px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lexend;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text17 {
+  color: rgba(0, 0, 0, 1);
+}
